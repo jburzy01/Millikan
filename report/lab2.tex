@@ -7,7 +7,7 @@
 \usepackage{siunitx}
 \usepackage{bm}
 
-\renewcommand{\vec}[1]{\boldsymbol{#1}}
+\renewcommand{\vec}[1]{\mathbf{#1}}
 \newcommand{\mat}[1]{\mathbf{#1}}
 \newcommand{\uv}[1]{\vec{\hat{#1}}}
 \newcommand{\x}{\vec{\hat{x}}}
@@ -39,6 +39,74 @@ In this experiment, we measure the electron charge using the same method that Mi
 
 \section{Theory}
 
+
+
+Consider an oil droplet of radius $a$ and density $\rho$ falling through
+the air. The droplet will experience both a gravitational force downward as
+well as a viscous drag force. The gravitational force is simply $\vec{F}_G =
+-mg\y$, where $m = \frac{4}{3}a^3 \rho$ and $g$ is the acceleration due to
+gravity. The viscous drag force is given by Stokes' law as
+\begin{equation}
+    \vec{F}_D = 6\pi a \eta v,
+\end{equation}
+where $\eta$ is the viscocity of air. The viscocity of dry air at a
+temperature $T$ can be approximated by the Sutherland formula:
+\begin{equation}
+    \eta \approx (1.827\times 10^{-5}) \left( \frac{T_0 + C}{T + C} \right)
+    \left( \frac{T}{T_0} \right)^{3/2}\, \si{N.s/m^2},
+\end{equation}
+where $T_0 = \SI{291.15}{K}$ and $C = \SI{120}{K}$. 
+
+Assuming the droplet falls at its terminal velocity, $v_f$, the net force must be
+zero. This means that
+\begin{equation}\label{eq:noE_balance}
+    \vec{F}_D + \vec{F}_G = \left(6\pi a \eta v_f - \frac{4}{3} a^3 \rho g\right)\y = 0.
+\end{equation}
+Using this, we find the radius of the droplet to be
+\begin{equation}\label{eq:radius}
+    a = \sqrt{\frac{9\eta v_f}{2\rho g}}.
+\end{equation}
+
+Now suppose the droplet contains some amount of charge $q$. If we turn on
+an electric field $\vec{E} = E\,\y$, then the droplet will experience
+an additional force $\vec{F}_E = q\vec{E}$. We will assume that field is
+stong enough that the droplet will begin to rise at some terminal velocity
+$v_r$. The viscous force will oppose this motion, and so balancing the
+forces gives
+\begin{equation}\label{eq:E_balance}
+    qE - mg - 6\pi a \eta v_r = 0.
+\end{equation}
+Using~\eqref{eq:noE_balance}, we can see that
+\[
+    m g = 6\pi a \eta v_f.
+\]
+Thus, we can rewrite~\eqref{eq:E_balance} as
+\begin{equation}
+    qE = 6\pi a \eta (v_f + v_f).
+\end{equation}
+Solving for $q$ and substituting for $a$ with~\eqref{eq:radius} yields
+\begin{equation}\label{eq:precorrection}
+    q = \frac{6\pi}{E} (v_f + v_r) \sqrt{v_f} \sqrt{\frac{9 \eta^3}{2\rho
+    g}}.
+\end{equation}
+Millikan postulated that the terminal velocities are slightly greater than
+theoretically predicted by a factor of $(1 + b/pa)$, where $p$ is the air
+pressure and $b = \SI{8.2}{Pa.m}$ is an experimentally determined constant.
+In other words, we experimentally observe a terminal velocity $v'$ such
+that
+\[
+    v' = (1 + b/pa) v,
+\]
+where $v$ is the theoretically predicted value. Since the derivation
+of~\eqref{eq:precorrection} uses the predicted values, we must factor in
+this correction, giving
+\begin{equation} \label{eq:charge}
+    q = \frac{6\pi}{E} (v_f + v_r) \sqrt{v_f} 
+    \left( \frac{1}{1 + b/pa} \right)^{3/2}
+    \sqrt{\frac{9\eta^3}{2\rho g}}.
+\end{equation}
+This is the equation that will be used to calculate the charge on the
+droplets.
 
 \section{Results}
 

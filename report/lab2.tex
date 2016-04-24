@@ -109,11 +109,38 @@ This is the equation that will be used to calculate the charge on the
 droplets.
 
 \section{Results}
+By observing the motion of droplets in various charge states, we calculate the rising and falling velocities of each droplet. With this information, we may use equation~\eqref{eq:radius} to calculate the radii of the droplets. Then, using equation~\eqref{eq:charge} we may calculate the charge on each droplet. The calculated charges of several droplets are shown in figure~\ref{fig:chargeplot}. The data form a clear step pattern indicating quantization of charge.
 
+\begin{figure}
+\centering
+\includegraphics[width=8cm]{errorBarPlot.png}
+\caption{Charge states of a selection of oil drops}
+\label{fig:chargeplot}
+\end{figure}
+
+By taking the mean of the values corresponding to each charge state and looking at the difference in these values, we observe that the magnitudes of the steps are integer multiples of a constant value. We calculate this value to be 
+\[
+    e = \SI{1.994e-19}{C}.
+\]
+There are several errors associated with this measurement, which will be
+discussed in the next section.
 
 \section{Error}
-
+We now determine a systematic error on our measurement of $e$. From
+equation~\eqref{eq:charge}, we see that the charge on each droplet is a function of the variables $E$, $v_f$, $v_r$, $p$, $a$, and $\eta$. By calculating the variances of each of these variables from the error propogation law, we may obtain a value for the standard deviation of the charge on each droplet. The errors associated with each charge calculation are shown in figure~\ref{fig:chargeplot}. Then, noting that our value of $e$ is a function of each of these individual charges, we apply the error propogation law again to obtain a final value of the uncertainty of our result. The standard deviation of the measurement of $e$ is found numerically to be
+\[
+    \sigma_e = \SI{3.939e-20}{C}.
+\]
+The main source of error in our measurement comes from the uncertainties in the time and distance intervals used to calculate the velocities of the droplets. The low frame rate of screen recording contributes significantly to the error in the time interval, and the frame rate of the camera used to view the drops gave rise to uncertainties in the distance traveled by each drop. We estimate these uncertainties in the time and distance intervals to be $\sigma_t = \SI{0.05}{s}$ and $\sigma_d = \SI{0.05}{mm}$, respectively.
 \section{Conclusion}
 
+We were able to calculate the value of $e$ to be
+\[
+    e = (1.994 \pm 0.394) \times 10^{-19} \,\si{C}.
+\]
+Comparing this with the known of the electric charge $e$, $e_0 = \SI{1.602e-19}{C}$, we
+see that $e_0$ falls within one standard deviation of our measurement.
+Thus, our experimentally determined value of $e$ agrees reasonably with the
+known value.
 
 \end{document}

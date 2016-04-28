@@ -118,6 +118,27 @@ By observing the motion of droplets in various charge states, we calculate the r
 \label{fig:chargeplot}
 \end{figure}
 
+
+\begin{table}
+\begin{tabular}{ |c|c| } 
+ \hline
+ Charge (C) & $\sigma$ \\ \hline\hline
+$1.85292\times10^{-19}$ & $1.85615\times10^{-19}$ \\
+$1.99147\times10^{-19}$ & $1.99801\times10^{-19}$ \\
+$2.00892\times10^{-19}$ & $3.82999\times10^{-19}$ \\
+$3.89048\times10^{-19}$ & $4.08603\times10^{-19}$ \\
+$5.86004\times10^{-19}$ & $6.12047\times10^{-19}$ \\
+$6.27298\times10^{-19}$ & $7.72017\times10^{-19}$ \\
+$7.89952\times10^{-19}$ & $8.06608\times10^{-19}$ \\
+$8.62615\times10^{-19}$ & $9.80424\times10^{-19}$ \\
+$9.9097\times10^{-19}$ & $1.09015\times10^{-18}$ \\
+$1.32219\times10^{-18}$ & $1.77369\times10^{-18}$ \\
+$2.21093\times10^{-18}$ & $2.22674\times10^{-18}$ \\ \hline
+\end{tabular}
+\caption{Charge values and uncertainties}
+\label{fig:chargetable}
+\end{table}
+
 By taking the mean of the values corresponding to each charge state and looking at the difference in these values, we observe that the magnitudes of the steps are integer multiples of a constant value. We calculate this value to be 
 \[
     e = \SI{1.994e-19}{C}.
@@ -127,11 +148,11 @@ discussed in the next section.
 
 \section{Error}
 We now determine a systematic error on our measurement of $e$. From
-equation~\eqref{eq:charge}, we see that the charge on each droplet is a function of the variables $E$, $v_f$, $v_r$, $p$, $a$, and $\eta$. By calculating the variances of each of these variables from the error propogation law, we may obtain a value for the standard deviation of the charge on each droplet. The errors associated with each charge calculation are shown in figure~\ref{fig:chargeplot}. Then, noting that our value of $e$ is a function of each of these individual charges, we apply the error propogation law again to obtain a final value of the uncertainty of our result. The standard deviation of the measurement of $e$ is found numerically to be
+equation~\eqref{eq:charge}, we see that the charge on each droplet is a function of the variables $E$, $v_f$, $v_r$, $p$, $a$, and $\eta$. By calculating the variances of each of these variables from the error propogation law, we may obtain a value for the standard deviation of the charge on each droplet. The errors associated with each charge calculation are listed in table~\ref{fig:chargetable}. Then, noting that our value of $e$ is a function of each of these individual charges, we apply the error propogation law again to obtain a final value of the uncertainty of our result. The standard deviation of the measurement of $e$ is found numerically to be
 \[
     \sigma_e = \SI{3.939e-20}{C}.
 \]
-The main source of error in our measurement comes from the uncertainties in the time and distance intervals used to calculate the velocities of the droplets. The low frame rate of screen recording contributes significantly to the error in the time interval, and the frame rate of the camera used to view the drops gave rise to uncertainties in the distance traveled by each drop. We estimate these uncertainties in the time and distance intervals to be $\sigma_t = \SI{0.05}{s}$ and $\sigma_d = \SI{0.05}{mm}$, respectively.
+The main source of error in our measurement comes from the uncertainties in the time and distance intervals used to calculate the velocities of the droplets. The low frame rate of screen recording contributes significantly to the error in the time interval, and the frame rate of the camera used to view the drops gave rise to uncertainties in the distance traveled by each drop. We estimate these uncertainties in the time and distance intervals to be $\sigma_t = \SI{0.05}{s}$ and $\sigma_d = \SI{0.05}{mm}$, respectively. We also accomadated for uncertainties in our measurements of the temperature, pressure, and voltage, although these errors had relatively small effects on our total systematic uncertainty.
 \section{Conclusion}
 
 We were able to calculate the value of $e$ to be

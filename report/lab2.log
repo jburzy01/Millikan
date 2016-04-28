@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 APR 2016 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 APR 2016 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1054,36 +1054,43 @@ File: errorBarPlot.png Graphic file (type png)
  <use errorBarPlot.png>
 Package pdftex.def Info: errorBarPlot.png used on input line 116.
 (pdftex.def)             Requested size: 227.62204pt x 142.26508pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 123.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 123.
 
 (./lab2.bbl) [2 <./errorBarPlot.png (PNG copy)>] (./lab2.aux) ) 
 Here is how much of TeX's memory you used:
- 15024 strings out of 493089
- 293789 string characters out of 6134842
- 354353 words of memory out of 5000000
- 18250 multiletter control sequences out of 15000+600000
- 64734 words of font info for 88 fonts, out of 8000000 for 9000
+ 15084 strings out of 493089
+ 294706 string characters out of 6134842
+ 362367 words of memory out of 5000000
+ 18296 multiletter control sequences out of 15000+600000
+ 86245 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,39p,10386b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texl
-ive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2015/texmf
--dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2015/texmf-dist/font
+ive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2015/texmf
+-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2015/texmf-dist/font
 s/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvip
-s/lm/lm-rm.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy
+s/lm/lm-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathex
 .enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/public/lm/lmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm
-/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr7.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/lm/lmsy7.pfb>
-Output written on lab2.pdf (2 pages, 201047 bytes).
+/lmmi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm
+/lmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
+Output written on lab2.pdf (2 pages, 234411 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 19462 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 26630 words of extra memory for PDF output out of 29859 (max. 10000000)
 

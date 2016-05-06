@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    286190,       7365]
+NotebookDataLength[    286191,       7365]
 NotebookOptionsPosition[    259373,       6434]
-NotebookOutlinePosition[    259730,       6450]
-CellTagsIndexPosition[    259687,       6447]
+NotebookOutlinePosition[    259731,       6450]
+CellTagsIndexPosition[    259688,       6447]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -6433,7 +6433,7 @@ Cell[BoxData["1.602`*^-19"], "Output",
 }, Open  ]]
 },
 WindowSize->{808, 723},
-WindowMargins->{{Automatic, 17}, {Automatic, 0}},
+WindowMargins->{{Automatic, 193}, {Automatic, 5}},
 FrontEndVersion->"10.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (December 10, \
 2015)",
 StyleDefinitions->"Default.nb"
